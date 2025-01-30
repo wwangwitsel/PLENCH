@@ -35,7 +35,7 @@ The code was based on the codebase of the following paper:
 - Ishaan Gulrajani and David Lopez-Paz. In search of lost domain generalization. In Proceedings of the 9th International Conference on Learning Representations, 2021.
 
 
-## ## Citation
+## Citation
 ```
 @inproceedings{wang2025realistic,
     author = {Wang, Wei and Wu, Dong-Dong and Wang, Jindong and Niu, Gang and Zhang, Min-Ling and Sugiyama, Masashi},

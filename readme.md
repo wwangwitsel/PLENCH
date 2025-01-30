@@ -19,7 +19,7 @@ Most tabular datasets can be found at https://palm.seu.edu.cn/zhangml/Resources.
 python -m plench.train --data_dir=<your dataset path> --algorithm PRODEN --dataset PLCIFAR10_Aggregate  --output_dir=<your output path> --steps 60000 --skip_model_save --checkpoint_freq 1000
 ```
 
-## Run Algorithms in Batch
+## Run Algorithms in Batches
 ```
 python -m plench.sweep launch --data_dir=<your dataset path> --command_launcher multi_gpu --n_hparams_from 0 --n_hparams 20 --n_trials_from 0 --n_trials 3 --datasets PLCIFAR10_Aggregate PLCIFAR10_Vaguest --algorithms PRODEN CAVL --output_dir=<your output path> --skip_confirmation --skip_model_save --steps 60000
 ```

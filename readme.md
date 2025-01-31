@@ -12,7 +12,7 @@ This repository is the official implementation of the paper "Realistic Evaluatio
 - Pillow
 
 ## Dataset
-Most tabular datasets can be found at https://palm.seu.edu.cn/zhangml/Resources.htm#data. PLCIFAR10 can be found at 
+Most tabular datasets can be found at https://palm.seu.edu.cn/zhangml/Resources.htm#data. PLCIFAR10 can be found at https://github.com/wwangwitsel/PLCIFAR10.
 
 ### Run an Algorithm
 ```

@@ -268,6 +268,3 @@ def test_dataset_gen(root, args=None):
             transforms.Normalize((0.4922, 0.4832, 0.4486), (0.2456, 0.2419, 0.2605))])
         test_dataset = dsets.CIFAR10(root=root, train=False, transform=test_transform)
     return test_dataset
-
-if __name__ == '__main__':
-    main()
